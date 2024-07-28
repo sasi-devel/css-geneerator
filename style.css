@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+    position: relative;
+}
+.tool{
+    width: 400px;
+    height: 400px;
+    background-color:aliceblue;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+.group label span{
+    background-color: aliceblue;
+    padding: 0px 10px;
+    margin-left: 20px;
+}
+textarea{
+    height: 150px;
+    margin-top: 20px;
+    resize: none;
+    
+}
+button{
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    border: none;
+    color: bisque;
+}
